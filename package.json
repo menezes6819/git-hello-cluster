@@ -4,6 +4,7 @@
   "description": "Only for test cluster",
   "main": "1-hello-cluster.js",
   "scripts": {
+  "start": "node 1-hello-cluster"	  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
