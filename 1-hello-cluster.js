@@ -20,7 +20,7 @@ if (cluster.isMaster) {
   http.createServer((req, res) => {
     res.writeHead(200);
     res.end(`Hello from Node.js - I am the worker ${cluster.worker.id}\n`);
-  }).listen(8000);
+  }).listen(8080);
 
-  console.log('Listening on port 8000');
+  console.log('Listening on port 8080');
 }
